@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('phonebook');
+    return view('records');
 });
 
 Route::get('/{name}',function(){
